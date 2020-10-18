@@ -1,0 +1,40 @@
+@media only screen and (max-width: 320px) {
+    .nav--container{
+        padding: 1rem 0;
+    }
+    .nav--logo > img{
+        width: 11.5rem;
+    }
+    .menu--list{
+        background-color: #DBD9D8;
+        position: absolute;
+        top: 100%;
+        width: 100vw;
+        height: 100vh;
+        z-index: 999;
+        left: -16px;
+        display: none;
+    }
+    .menu--list > ul {
+        flex-direction: column;
+    }
+    .menu--list ul > li {
+        padding: 0;
+        margin: 1.6rem;
+    }
+    .hamburguer{
+        display: block;
+        top: 1%;
+    }
+    .nav--icon > .hamburguer {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .menu--list-active{
+        display: block;
+    }
+    .show--menu{
+        display: block;
+    }
+}
